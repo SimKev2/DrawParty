@@ -9,6 +9,9 @@ __pycache__/
 # C extensions
 *.so
 
+# PyCharm
+*.idea/*
+
 # Distribution / packaging
 .Python
 env/
@@ -102,3 +105,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# JS Stuff
+node_modules
+package-lock.json
+app.js*
+vendor.js*
