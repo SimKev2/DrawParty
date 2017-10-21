@@ -1,0 +1,27 @@
+{
+  "name": "DrawParty",
+  "version": "0.1.0",
+  "description": "A multiplayer pictionary like game that uses image recognition to determine winners.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimKev2/DrawParty"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-decorators-legacy": "latest",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "uglifyjs-webpack-plugin": "latest",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch",
+    "clean": "rm -f app.js app.js.map vendor.js vendor.js.map"
+  }
+}
