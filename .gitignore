@@ -1,5 +1,5 @@
-# IDE Files
-.idea/
+# Test Artifacts
+/test-reports/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

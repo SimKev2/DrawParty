@@ -1,0 +1,11 @@
+[run]
+branch = True
+include = */draw_party/*
+omit =
+    */draw_party/lib/*
+    */test/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
