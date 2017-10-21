@@ -8,6 +8,7 @@ class Homepage(object):
 
     MIME_TYPES = {
         'css': 'text/css',
+        'ico': 'image/x-icon',
         'html': 'text/html',
         'js': 'application/javascript'
     }
