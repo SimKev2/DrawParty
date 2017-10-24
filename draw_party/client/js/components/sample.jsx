@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 const getStyle = function(passedinvalue){
     return {
-        color: (passedinvalue === 'sampleStoreValue') ? 'green' : 'red'
+        color: (passedinvalue === 'sampleStoreValue') ? 'green' : 'blue'
     };
 };
 
